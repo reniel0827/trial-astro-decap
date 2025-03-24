@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 
 export default defineConfig({
-  site: "https://www.yourwebsite.com", // update me!
+  site: "trial-astro-blog.netlify.app", // update me!
   integrations: [
     icon(),
     sitemap({
