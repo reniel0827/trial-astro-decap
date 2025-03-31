@@ -2,8 +2,12 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineConfig({
-  site: "https://trial-astro-blog.netlify.app/", // update me!
+  // update me!
+  site: "https://trial-astro-blog.netlify.app/",
+
   integrations: [
     icon(),
     sitemap({
@@ -12,4 +16,8 @@ export default defineConfig({
       priority: 0.7,
     }),
   ],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
