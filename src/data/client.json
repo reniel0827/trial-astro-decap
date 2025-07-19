@@ -1,15 +1,15 @@
 {
-	"name": "Astro-trial-blog",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"name": "Portfolio",
+	"email": "renielvillegas@gmail.com",
+	"phoneForTel": "",
+	"phoneFormatted": "",
 	"address": {
 		"lineOne": "First Address Line",
 		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
+		"city": "",
+		"state": "",
 		"zip": "80206",
 		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
 	},
-	"domain": "https://trial-astro-blog.netlify.app"
+	"domain": "https://reniel-villegas.netlify.app/"
 }
