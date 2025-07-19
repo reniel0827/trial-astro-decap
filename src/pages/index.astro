@@ -327,7 +327,7 @@ const optimizedImage = await getImage({src: landingImage, format: 'avif'})
       </div>
     </div>
   </section> -->
-  <section class="flex flex-col text-center">
+  <section class="flex flex-col text-center" id="aboutMe">
     <div class="flex flex-col items-center text-center relative mt-16 md:justify-around lg:">
       <h1 class="font-bold " style="letter-spacing: 0.1em;, font-weight:700;, font-size: 16px;,font-family: Roboto, Arial,sans-serif;
           line-height:1.2em;color:#f69814;">ABOUT ME</h1>
@@ -379,7 +379,37 @@ const optimizedImage = await getImage({src: landingImage, format: 'avif'})
           <div class="bg-[#378b90] h-5 rounded-full w-7/10"></div> 
       </div>
       <div class="mt-8">
+        <h1 class="text-lg font-bold">Astro</h1>
+        <div class="w-full bg-gray-200 rounded-full h-5">
+          <div class="bg-[#378b90] h-5 rounded-full w-7/10"></div> 
+      </div>
+      <div class="mt-8">
+        <h1 class="text-lg font-bold">React</h1>
+        <div class="w-full bg-gray-200 rounded-full h-5">
+          <div class="bg-[#378b90] h-5 rounded-full w-5/10"></div> 
+      </div>
+      <div class="mt-8">
         <h1 class="text-lg font-bold">Tailwind</h1>
+        <div class="w-full bg-gray-200 rounded-full h-5">
+          <div class="bg-[#378b90] h-5 rounded-full w-7/10"></div> 
+      </div>
+      <div class="mt-8">
+        <h1 class="text-lg font-bold">Less</h1>
+        <div class="w-full bg-gray-200 rounded-full h-5">
+          <div class="bg-[#378b90] h-5 rounded-full w-7/10"></div> 
+      </div>
+      <div class="mt-8">
+        <h1 class="text-lg font-bold">PHP</h1>
+        <div class="w-full bg-gray-200 rounded-full h-5">
+          <div class="bg-[#378b90] h-5 rounded-full w-4/10"></div> 
+      </div>
+      <div class="mt-8">
+        <h1 class="text-lg font-bold">Python Flask</h1>
+        <div class="w-full bg-gray-200 rounded-full h-5">
+          <div class="bg-[#378b90] h-5 rounded-full w-4/10"></div> 
+      </div>
+      <div class="mt-8">
+        <h1 class="text-lg font-bold">MySql</h1>
         <div class="w-full bg-gray-200 rounded-full h-5">
           <div class="bg-[#378b90] h-5 rounded-full w-5/10"></div> 
       </div>
@@ -594,7 +624,7 @@ const optimizedImage = await getImage({src: landingImage, format: 'avif'})
       <a href="/projects" class="cs-button-solid">View all projects</a>
     </div>
   </section> -->
-  <section class="w-9/10 mx-auto " style="background-color: rgba(229, 231, 235, 0.2);">
+  <section id="portfolio" class="w-9/10 mx-auto " style="background-color: rgba(229, 231, 235, 0.2);">
     <div class="flex flex-col items-center text-center relative mt-16 md:justify-around lg:">
       <h1 class="font-bold mt-8" style="letter-spacing: 0.1em;, font-weight:700;, font-size: 16px;,font-family: Roboto, Arial,sans-serif;
           line-height:1.2em;color:#f69814;">MY PORTFOLIO</h1>
@@ -611,8 +641,35 @@ const optimizedImage = await getImage({src: landingImage, format: 'avif'})
       <img src="assets/images/7.jpg" alt="" class="w-full h-96 object-cover lg:w-1/3" >
       <img src="assets/images/8.jpg" alt="" class="w-full h-96 object-cover lg:w-1/3" >
     </div> 
-    <div class="flex flex-col items-center text-center relative mt-16 md:justify-around lg:">
+    <div id="websites" class="flex flex-col items-center text-center relative mt-16 md:justify-around lg:">
       <h1 class="font-bold text-3xl">Websites</h1>
+      <div class="mt-12 mb-12 flex-wrap flex flex-col gap-4 justify-center  md:flex-row md:w-3/4">
+        <!-- <iframe src="https://stonemassage.ca/" width="100%" height="300"></iframe> -->
+        <a href="https://stonemassage.ca/" target="_blank" style="text-decoration: none; display: block; border: 1px solid #ccc; padding: 10px; max-width: 400px;">
+          <img src="assets/images/stonemassage.jpg" alt="Title" style="width: 100%;">
+          <h2>stonemassage.ca</h2>
+          <p>Professional massage therapy for relaxation, pain relief, and overall wellness in Edmonton.</p>
+        </a>
+        <a href="mistrservices.netlify.app/" target="_blank" style="text-decoration: none; display: block; border: 1px solid #ccc; padding: 10px; max-width: 400px;">
+          <img src="assets/images/mistR.jpg" alt="Title" style="width: 100%;">
+          <h2>https://mistrservices.netlify.app</h2>
+          <p>Family run business specializing in residential and commercial patio cool mist system rentals, sales, installation and servicing.</p>
+        </a>
+        <a href="cleaning-service-template.netlify.app" target="_blank" style="text-decoration: none; display: block; border: 1px solid #ccc; padding: 10px; max-width: 400px;">
+          <img src="assets/images/cleaningService.jpg" alt="Title" style="width: 100%;">
+          <h2>https://cleaning-service-template.netlify.app</h2>
+          <p>Expert cleaning services, including carpet cleaning, deep cleaning, stain removal, deodorizing, upholstery care, and more. Whether for your home or business, 
+            experience a deeper clean with our trusted steam cleaning and full-service cleaning solutions in Edmonton..</p>
+        </a>
+        <a href="delanails.netlify.app/" target="_blank" style="text-decoration: none; display: block; border: 1px solid #ccc; padding: 10px; max-width: 400px;">
+          <img src="assets/images/delaNails.jpg" alt="Title" style="width: 100%;">
+          <h2>delanails.netlify.app</h2>
+          <p>Expert nail technicians provide top-notch manicures and pedicures in a relaxing atmosphere, ensuring every visit is an experience of beauty and care.</p>
+        </a>
+        <!-- <a href="https://github.com/reniel0827" target="_blank" style="text-decoration: none; display: block; border: 1px solid #ccc; padding: 10px; max-width: 400px;">
+          <img src="assets/images/delaNails.jpg" alt="Title" style="width: 100%;">  
+        </a> -->
+      </div>
     </div>
   </section>
     <!-- ============================================ -->
